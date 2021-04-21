@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+	<title>Querido lector:</title>
+	<itunes:author>Luis Gerardo</itunes:author>
+	<googleplay:author>Luis Gerardo</googleplay:author>
+	<itunes:owner>
+		<itunes:name>Luis Gerardo</itunes:name>
+		<itunes:email>gamaerry@gmail.com</itunes:email>
+	</itunes:owner>
+	<link>http://fismat.umich.mx/~lg/QueridoLector</link>
+	<description>Relatos, reflexiones y conversaciones. </description>
+	<language>es-ES</language>
+	<image>
+		<url>http://fismat.umich.mx/~lg/QueridoLector/images/queridoLector.png</url>
+		<title>Querido lector:</title>
+		<link>http://fismat.umich.mx/~lg/QueridoLector</link>
+	</image>
+	<googleplay:image href="https://fismat.umich.mx/~lg/QueridoLector/images/queridoLector.png"/>
+	<itunes:image href="https://fismat.umich.mx/~lg/QueridoLector/images/queridoLector.png"/>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:type>episodic</itunes:type>
+	<itunes:category text="Arts"></itunes:category>
+    <item>
+		<title>Stupid stupid love story</title>  
+		<description>
+Duodécimo episodio: 
+"Todos los hombres podemos llegar a entendernos perfectamente, pero comprendernos sólo cada uno lo puede hacer consigo mismo" -Hermann Hesse
+
+¿Qué le dá a mi pestaña/borrador su actual valor? Solo veía el mundo viendo ojos hermosos y de pronto sus palabras me apuntaron hacia una nota que tenía olvidada, a una observación de algo que creí sublime, pero no lo suficiente como para por mi propia cuenta recordarla.
+
+Quizá porque suelo creer que es lo único que me queda de fulanita, una simple idea y concepto de lo que ella es "un reflejo de lo que pudo ser".
+		</description>
+		<pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Stupid stupid love story.ogg" type="audio/mpeg" length="22796168"/>
+		<itunes:duration>08:03</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">13stupid</guid>
+	</item>
+	<item>
+		<title>Rama seca</title>  
+		<description>
+Undécimo episodio:
+Caray, ¿cuanto apreciamos de la vida? ¿Casi nada? ¿Casi todo?, ¿Blanco? ¿Negro?, ¿agradecido? ¿inconformista? Cruz o cara, es que no nos dan al menos dos opciones. Si una entonces no es la otra, pero sin la otra siempre hubo solo una. Esta: Casi todo, un negro muy denso siendo un eterno inconformista.
+Fondo: Serein - To speak of solitude https://soundcloud.com/serein/to-speak-of-solitude
+
+		</description>
+		<pubDate>Sat, 04 Apr 2020 05:00:00 +0000</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Rama seca.mp3" type="audio/mpeg" length="7 544 314"/>
+		<itunes:duration>03:08</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">12rama</guid>
+	</item>
+	<item>
+		<title>Gran arbol sin raíces</title>  
+		<description>
+Décimo episodio:
+"Hojas que brotan en la misma rama,
+si unas el viento logra arrebatar
+y otra se quedan a la rama unidas,
+¿a verse volverán?"
+-Concepción Estevarena.
+
+Poco sabemos de la arena que aún queda en el reloj de cada ser amado ¿Donde se desarrolla nuestra capacidad de amar? Personalmente creo que en cada grano de arena que compartimos con nuestros seres queridos. 
+		</description>
+		<pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Gran arbol sin raíces.ogg" type="audio/mpeg" length="8 093 254"/>
+		<itunes:duration>02:55</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">11gran</guid>
+	</item>
+	<item>
+		<title>Darkened skin</title>  
+		<description>
+Ninth episode: Who is pure enough in his existence to say that his skin does not have the blackness that betrays him of his own nature? Who is inhuman enough to deny the most primitive part of his being? Knowing how to start and maintain this and other natural sources of lighting is essential not to get lost in the skirmishes of a desperate world.
+
+Background music: Philippe Rey - Ad Honorem https://soundcloud.com/paranormal-potato/philippe-rey-ad-honorem
+		</description>
+		<pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Darkened skin.ogg" type="audio/mpeg" length="7 564 207"/>
+		<itunes:duration>02:37</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">10skin</guid>
+	</item>
+	<item>
+		<title>Piel negra</title>  
+		<description>
+Noveno episodio: ¿Quién es lo suficientemente puro en su existencia como para decir que su piel no tiene la negrura que le delata de su propia naturaleza? ¿Quién es lo suficientemente inhumano como para negar la parte mas primitiva de su ser? Saber iniciar y mantener esta y otras fuentes naturales de iluminación es fundamental para no perderse en las escaramuzas de un mundo desesperado.
+
+Fondo: Philippe Rey - Ad Honorem https://soundcloud.com/paranormal-potato/philippe-rey-ad-honorem
+		</description>
+		<pubDate>Mon, 06 Jan 2020 00:00:00 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Piel negra.ogg" type="audio/mpeg" length="7 024 891"/>
+		<itunes:duration>02:34</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">9piel</guid>
+	</item>
+
+	<item>
+		<title>Camino de piedras (1/7)</title>  
+		<description>
+Octavo episodio: Estamos aquí de paso, creyendo que desgastamos a la roca y, en ultima instancia, solo nos desgastamos a nosotros mismos. A una piedra no se le puede hacer nada, pues nada es, nada importa, el único elenco en esta tragedia es el hombre.
+		</description>
+		<pubDate>Sat, 16 Nov 2019 12:20:00 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Camino de piedras (1-7).wav" type="audio/mpeg" length="38 866 632"/>
+		<itunes:duration>01:50</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">8camino</guid>
+	</item>
+
+	<item>
+		<title>Hay lugares que están malditos</title>  
+		<description>
+Septimo episodio:
+"Y en la televisión, en la radio, en el cine 
+no hubo ningún cambio de programa 
+no hubo ningún anuncio intercalado ni un
+minuto de silencio en el banquete
+(pues prosiguió el banquete)"
+-Rosario Castellanos. 
+
+Cuando nacemos, nacemos con una nacionalidad, con un pasado colectivo, quizá en tierra fertil, pero no rosa. Ignoramos (muy seguido), en donde estamos y en donde hemos nacido.
+
+El texto interpretado fué escrito por Maricruz Romero Tejeda de Historias de tierra sagrada, mi México: https://www.facebook.com/HistoriasdeTierraSagradaMiMexico/
+
+Fondo: Jorge Reyes - Plight:  
+https://www.youtube.com/watch?v=U6ye-bbu73c
+		</description>
+		<pubDate>Sun, 13 Oct 19 01:19:31 +0200 </pubDate>
+		<enclosure url="https://fismat.umich.mx/~lg/QueridoLector/audio/Hay lugares que están malditos.mp3" type="audio/mpeg" length="10329024"/>
+		<itunes:duration>04:18</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">7haylugares</guid>
+	</item>
+
+	<item>
+		<title>Precio</title>  
+		<description>
+Sexto episodio: ¿Qué es lo que vemos cuando alzamos la vista hacia el infinito vacío que ilumina nuestra existencia? Si nuestra creación fué el resultado repentino de una singularidad ¿Quién apostó a nuestra existencia? "El primer trago de la copa de las ciencias naturales te volverá ateo; pero en el fondo de esa copa te espera Dios" -Karl Heisenberg.
+		</description>
+		<pubDate>Sat, 21 Sep 2019 13:08:31 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Precio.mp3" type="audio/mpeg" length="5696967"/>
+		<itunes:duration>02:22</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">6precio</guid>
+	</item>
+
+	<item>
+		<title>Sol edad</title>  
+		<description>
+Quinto episodio: El resultado, somos todos el resultado del recorrido de toda una especie, todo un linaje de conocimientos que nos preceden. Sin importar qué sentimientos de la mas absoluta soledad nos inunden, siempre tendremos todo aquello de lo que somos parte, todo aquello que habitamos, todas las sociedades y el conocimiento respaldando nuestra existencia.
+		</description>
+		<pubDate>Mon, 26 Aug 2019 03:41:28 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Sol edad.mp3" type="audio/mpeg" length="9979387"/>
+		<itunes:duration>04:09</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">5soledad</guid>
+	</item>
+
+	<item>
+		<title>6:00 am</title>  
+		<description>
+Cuarto episodio: El descanso coexiste con el trabajo y la planificación efectiva así como la noche con el día, mas este representa apenas una tercera parte del total; debiendo así ser con nuestra búsqueda incesante de bienestar, al menos durante ciertas etapas cruciales en nuestra vida, siendo nuestra juventud la mas evidente de todas.
+            
+Fondo: Steve Jablonsky - Finally a tomorrow https://www.youtube.com/watch?v=9eGV5YhZsQQ
+		</description>
+		<pubDate>Sun, 18 Aug 2019 12:30:48 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/6:00 am.mp3" type="audio/mpeg" length="10297147"/>
+		<itunes:duration>04:17</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">4seisam</guid>
+	</item>
+
+	<item>
+		<title>Ríe</title>  
+		<description>
+Tercer episodio: Se ha comprobado innumerables veces que el estado de ánimo de una persona puede verse modificado para bien con el simple estimulo de una sonrisa, por lo que la capacidad de encontrar el lado divertido o gracioso a cada acontecimiento en la vida, es de suma importancia.
+        
+Fondo: Fredji - Flying high https://soundcloud.com/fredjimusic/fredji-flying-high
+		</description>
+		<pubDate>Mon, 08 Jul 2019 21:41:49 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Ríe.mp3" type="audio/mpeg" length="11276342"/>
+		<itunes:duration>04:41</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">3rie</guid>
+	</item>
+
+	<item>
+		<title>Dragón rojo</title>  
+		<description>
+Segundo episodio: "Soy un anciano y he sobrevivido a muchos y grandes problemas, pero la mayoría de ellos nunca han existido" -Mark Twain. Si ya los cambios y la incertidumbre por sí mismos son una dura prueba en este juego de la vida, de nada nos sirve otorgarle el poder de controlarnos. El hombre que domina sus circunstancias dotándolas de sentido, tiene ventaja sobre el que no.
+		</description>
+		<pubDate>Mon, 24 Jun 2019 03:27:56 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Dragón rojo.mp3" type="audio/mpeg" length="7504523"/>
+		<itunes:duration>03:07</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">2dragonrojo</guid>
+	</item>
+
+	<item>
+		<title>Qué tal, esta es nuestra despedida</title>  
+		<description>
+Primer episodio: El desprendimiento es una practica de lo mas fundamental en la vida; desde que empieza a vivir, el ser humano se va topando en innumerables ocasiones con este dolor tan característico de dejar ir a una persona o situación que parecen darle cierta comodidad y unafalsa ilusión de felicidad.
+		</description>
+		<pubDate>Sun, 16 Jun 2019 07:09:00 +0200</pubDate>
+		<enclosure url="http://fismat.umich.mx/~lg/QueridoLector/audio/Qué tal, esta es nuestra despedida.mp3" type="audio/mpeg" length="9837308"/>
+		<itunes:duration>04:06</itunes:duration> 
+		<itunes:episodeType>full</itunes:episodeType>
+		<guid isPermaLink="false">1quetal</guid>
+	</item>
+	
+</channel>
+</rss>
