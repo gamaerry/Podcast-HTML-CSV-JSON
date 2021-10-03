@@ -1,0 +1,2 @@
+var csv=`nombre,web,descripcion,lenguaje,autor,correo,imagen,categoria,subcategorias,keywords,explicito,episodic
+Querido Lector:,http://fismat.umich.mx/~lg/QueridoLector/,"Relatos, reflexiones y conversaciones. Por cuestiones de copyright algunas plataformas no muestran todos los episodios, para escucharlos todos búsquenos en Google como ""Querido lector podcast"" o visite: http://fismat.umich.mx/~lg/QueridoLector ",es-ES,Luis Gerardo,gamaerry@gmail.com,http://fismat.umich.mx/~lg/QueridoLector/images/queridoLector.png,Arts,Literature,"escritura, poesía, cartas",FALSE,TRUE`
