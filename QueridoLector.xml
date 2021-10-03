@@ -15,7 +15,7 @@
     <itunes:type>episodic</itunes:type>
     <itunes:author>Luis Gerardo</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/queridoLector.png" />
+    <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/queridoLector.jpg" />
     <itunes:keywords>escritura, poesía, cartas</itunes:keywords>
     <item>
       <title>Qué tal, esta es nuestra despedida</title>
@@ -34,7 +34,7 @@
       <pubDate>Mon, 24 Jun 2019 05:00:00 GMT</pubDate>
       <itunes:duration>00:03:07</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/2.png" />
+      <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/2.jpg" />
       <itunes:keywords>superación, problemas, psicología</itunes:keywords>
     </item>
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Mon, 26 Aug 2019 05:00:00 GMT</pubDate>
       <itunes:duration>00:04:09</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/3.png" />
+      <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/3.jpg" />
       <itunes:keywords>trascendencia, religión, soledad</itunes:keywords>
     </item>
     <item>
@@ -114,7 +114,7 @@
       <pubDate>Sun, 03 Oct 2021 05:00:00 GMT</pubDate>
       <itunes:duration>00:01:50</itunes:duration>
       <itunes:episodeType>bonus</itunes:episodeType>
-      <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/queridoLectorAlfa.png" />
+      <itunes:image href="http://fismat.umich.mx/~lg/QueridoLector/images/queridoLectorAlfa.jpg" />
       <itunes:keywords>aventura, trascendencia, problemas</itunes:keywords>
     </item>
   </channel>

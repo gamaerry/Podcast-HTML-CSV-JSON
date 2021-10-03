@@ -10,7 +10,7 @@ function construir(datos){
   let fecha=datos[datos.length-1].fecha.split('/')
 
   //LLenado de la portada:
-  titulo.innerHTML+=`Episodio ${datos[datos.length-1].episodio}: ${datos[datos.length-1].titulo}`
+  titulo.innerHTML+=`Episodio ${datos[datos.length-1].episodio==0?"bonus":datos[datos.length-1].episodio==0}: ${datos[datos.length-1].titulo}`
   fechaAutor.innerHTML+=`<span class="text-white-opacity-05"><small>Por Luis Gerardo | ${mes(fecha[1])} ${fecha[2]} </small ></span>`
   player1.innerHTML+=`<source src="audio/${datos[datos.length-1].titulo}.${datos[datos.length-1].formato}" type="audio/${type(datos[datos.length-1].formato)}">`
 
@@ -20,8 +20,8 @@ function construir(datos){
     //Llenado de la tabla:
     tabla.innerHTML+=`
       <tr>
-				<td>${formatoIMG(datos[i].episodio, datos[i].imagen)}</td>
-				<td>${datos[i].titulo}</td>
+				<td>${datos[i].episodio}.</td>
+				<td>${formatoIMG(datos[i].titulo,datos[i].imagen)}</td>
 				<td>
 				  <audio id="player2" controls style="min-width: 100%">
 					  <source src="audio/${datos[i].titulo}.${datos[i].formato}" type="audio/${type(datos[i].formato)}">
@@ -73,7 +73,7 @@ function formatoHTML(descripcion){
       .replace(/\*\*([^*]+)\*\*/g,'<a href="$1" target="_blank">$1</a>')
       .replace(/\n/g,'<br>')
 }
-function formatoIMG(episodio, imagen){
-	return episodio
-		.replace(/(\d+)/, `$1 <br><a href="images/${imagen}" target="_blank">(ver portada)</a>`)
+function formatoIMG(titulo, imagen){
+	return titulo
+		.replace(/(.+)/, `$1 <br><img src="images/${imagen}" alt="¿Qué es el amor al propio país? ¿El odio a lo que no es el propio país? -Úrsula K. Le Guin" width="240" height="240">`)
 }
