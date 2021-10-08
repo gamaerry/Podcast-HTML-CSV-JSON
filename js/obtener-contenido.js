@@ -23,7 +23,7 @@ function construir(datos){
 				<td>${datos[i].episodio}.</td>
 				<td>${formatoIMG(datos[i].titulo,datos[i].imagen)}</td>
 				<td>
-				  <audio id="player2" controls style="min-width: 100%">
+				  <audio id="player2" style="min-width: 100%">
 					  <source src="audio/${datos[i].titulo}.${datos[i].formato}" type="audio/${type(datos[i].formato)}">
 				  </audio><br>
 				  ${formatoHTML(datos[i].descripcion)}
