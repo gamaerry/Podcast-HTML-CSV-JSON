@@ -1,5 +1,4 @@
-let json=Papa.parse(csv,{header: true})
-construirIndex(json.data)
+construirIndex(episodiosJSON.data)
 function construirIndex(datos){
   // Preparacion de elementos:
   let tabla=document.getElementById('tabla')
