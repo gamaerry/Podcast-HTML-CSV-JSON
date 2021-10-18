@@ -1,6 +1,6 @@
 let json=Papa.parse(csv,{header: true})
-construir(json.data)
-function construir(datos){
+construirIndex(json.data)
+function construirIndex(datos){
   // Preparacion de elementos:
   let tabla=document.getElementById('tabla')
   let lista=document.getElementById('lista')
@@ -10,7 +10,7 @@ function construir(datos){
   let fecha=datos[datos.length-1].fecha.split('/')
 
   //LLenado de la portada:
-  titulo.innerHTML+=`Episodio ${datos[datos.length-1].episodio==0?"bonus":datos[datos.length-1].episodio==0}: ${datos[datos.length-1].titulo}`
+  titulo.innerHTML+=`Episodio ${datos[datos.length-1].episodio==0?"bonus":datos[datos.length-1].episodio}: ${datos[datos.length-1].titulo}`
   fechaAutor.innerHTML+=`<span class="text-white-opacity-05"><small>Por Luis Gerardo | ${mes(fecha[1])} ${fecha[2]} </small ></span>`
   player1.innerHTML+=`<source src="audio/${datos[datos.length-1].titulo}.${datos[datos.length-1].formato}" type="audio/${type(datos[datos.length-1].formato)}">`
 
