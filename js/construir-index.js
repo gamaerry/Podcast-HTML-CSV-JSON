@@ -1,33 +1,36 @@
-construirIndex(episodiosJSON.data)
-function construirIndex(datos){
+construirIndex(episodiosJSON.data, queridoJSON.data[0].fondo)
+function construirIndex(episodios, fondo){
+  //Fondo a partir del csv
+  document.getElementById('fondo').style.backgroundImage=`url(${fondo.replace(/^.*(?=images)/, '')})`
+
   // Preparacion de elementos:
   let tabla=document.getElementById('tabla')
   let lista=document.getElementById('lista')
   let titulo=document.getElementById('titulo')
   let fechaAutor=document.getElementById('fecha-autor')
   let player1=document.getElementById('player1')
-  let fecha=datos[datos.length-1].fecha.split('/')
+  let fecha=episodios[episodios.length-1].fecha.split('/')
 
   //LLenado de la portada:
-  titulo.innerHTML+=`Episodio ${datos[datos.length-1].episodio==0?"bonus":datos[datos.length-1].episodio}: ${datos[datos.length-1].titulo}`
+  titulo.innerHTML+=`Episodio ${episodios[episodios.length-1].episodio==0?"bonus":episodios[episodios.length-1].episodio}: ${episodios[episodios.length-1].titulo}`
   fechaAutor.innerHTML+=`<span class="text-white-opacity-05"><small>Por Luis Gerardo | ${mes(fecha[1])} ${fecha[2]} </small ></span>`
-  player1.innerHTML+=`<source src="audio/${datos[datos.length-1].titulo}.${datos[datos.length-1].formato}" type="audio/${type(datos[datos.length-1].formato)}">`
+  player1.innerHTML+=`<source src="audio/${episodios[episodios.length-1].titulo}.${episodios[episodios.length-1].formato}" type="audio/${type(episodios[episodios.length-1].formato)}">`
 
-  for (let i = 0; i < datos.length; i++) {
+  for (let i = 0; i < episodios.length; i++) {
     //Llenado de la lista:
-    lista.innerHTML+=`<li><a href="audio/${datos[i].titulo}.${datos[i].formato}">${datos[i].episodio}. ${datos[i].titulo}</a><\li>`
+    lista.innerHTML+=`<li><a href="audio/${episodios[i].titulo}.${episodios[i].formato}">${episodios[i].episodio}. ${episodios[i].titulo}</a><\li>`
     //Llenado de la tabla:
     tabla.innerHTML+=`
       <tr>
-				<td>${datos[i].episodio}.</td>
-				<td>${formatoIMG(datos[i].titulo,datos[i].imagen)}</td>
+				<td>${episodios[i].episodio}.</td>
+				<td>${formatoIMG(episodios[i].titulo,episodios[i].imagen)}</td>
 				<td>
 				  <audio id="player2" style="min-width: 100%">
-					  <source src="audio/${datos[i].titulo}.${datos[i].formato}" type="audio/${type(datos[i].formato)}">
+					  <source src="audio/${episodios[i].titulo}.${episodios[i].formato}" type="audio/${type(episodios[i].formato)}">
 				  </audio><br>
-				  ${formatoHTML(datos[i].descripcion)}
+				  ${formatoHTML(episodios[i].descripcion)}
 				</td>
-				<td>${datos[i].fecha}</td>
+				<td>${episodios[i].fecha}</td>
       </tr>`
   }
 }

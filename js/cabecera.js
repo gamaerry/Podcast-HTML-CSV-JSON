@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Cabecera extends HTMLElement {
   connectedCallback(){
     this.innerHTML=`<div class="site-wrap">
       <div class="site-mobile-menu">
@@ -43,4 +43,4 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define('barra-navegacion', Header)
+customElements.define('barra-navegacion', Cabecera)
